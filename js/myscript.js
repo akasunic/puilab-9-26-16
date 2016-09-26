@@ -12,13 +12,12 @@ Takes as argument a string that indicates which image to show
 //    else if (??){
 //        ??;
 //    }
-    //first, addi image
+    //first, add image
 //    var pic = document.createElement("img");
-//    pic.setAttribute("src", ???);
-//    pic.setAttribute("id", ???);
-//    pic.addEventListener(????);
-//    document.querySelector(??).appendChild(???;
-//    //use similar steps to add reset button (hint: use function!)
+//    pic.setAttribute("src", ???);//where will you get the file from?
+//    pic.setAttribute("id", ???);//choose 
+//    document.querySelector(??).appendChild(???);//hint: use the id of the div tag where you will be //storing your image, and then add the image element as a child of that tag. Hint 2: remember that you //gave the div tag an id of "imgContainer"
+//    //use similar steps to add reset button (hint: use function below!)
 //    
 //    
 //}
@@ -30,7 +29,7 @@ Takes as argument a string that indicates which image to show
 //    var txt = document.createTextNode(???);
 //    btn.setAttribute("id", ???);
 //    btn.appendChild(???);
-//    btn.addEventListener();//delete imagw on click
+//    btn.addEventListener("click", someFunctionCHANGE);//delete image on click. Remember: in html, use "onclick", but in javascript use "click", "SomeFunction"
 //    return btn;
 //}
 //    
@@ -43,7 +42,7 @@ Takes as argument a string that indicates which image to show
 //    var imageDiv = document.querySelector(divId);
 //    //var btnID = ???;
 //    var btn = document.querySelector(btnID);
-//    //var pic = ???
+//    //var pic = ???;
 //    imageDiv.removeChild(btn);
 //    //?? how to remove image as well?
 //    
